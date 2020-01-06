@@ -1,0 +1,22 @@
+{
+  "name": "thoughtworks_assignment",
+  "version": "1.0.0",
+  "description": "This Project contains the solution for Conference Track Management Problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive \"./{,!(node_modules)/**/}*.spec.js\" --exit",
+    "test-coverage": "nyc --reporter=html node_modules/.bin/mocha --recursive \"./{,!(node_modules)/**/}*.spec.js\" --exit",
+    "start": "cd src && node index.js"
+  },
+  "author": "Kamesh Dashora",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0"
+  }
+}
