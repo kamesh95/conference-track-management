@@ -5,7 +5,7 @@ Morning sessions begin at 9am and must finish by 12 noon, for lunch. Afternoon s
 
 Note that depending on how you choose to complete this problem, your solution may give a different ordering or combination of talks into tracks. This is acceptable; you don’t need to exactly duplicate the sample output given here.
 
-Test input:
+`Test input:`
 ```Writing Fast Tests Against Enterprise Rails 60min
 Overdoing it in Python 45min
 Lua for the Masses 30min
@@ -26,7 +26,9 @@ Ruby on Rails Legacy App Maintenance 60min
 A World Without HackerNews 30min
 User Interface CSS in Rails Apps 30min
 ```
-Test output:
+
+`Test output:`
+
 ```Track 1:
 09:00AM Writing Fast Tests Against Enterprise Rails 60min
 10:00AM Overdoing it in Python 45min
