@@ -31,4 +31,12 @@ contract SDXO2 {
         emit Transfer(msg.sender, to, value);
         return true;
     }
+    
+    function airdrop(address[] memory _addresses, uint256 amount) public returns (bool) {
+        require(balanceOf(msg.sender) >= _addresses.length * amount, 'Low balance to send to all addresses');
+        for (uint256 index = 0; index < _addresses.length; index++) {
+            transfer(_addresses[index], amount);
+        }
+        return true;
+    }
 }
